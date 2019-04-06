@@ -10,3 +10,8 @@ $(document).ready(function () {
 	}); // end click event handler
 });
 import $  from 'jquery' ;
+import bird from '../images/bird.jpg';
+import squirrel from '../images/squirrel.jpg';
+
+      $('#image__bird').attr("src",bird);
+      $('#image__squirrel').attr("src",squirrel);
